@@ -131,8 +131,8 @@ public class ChatOptions {
 				
 				//	Draw a partially transparent background.
 				g2d.setComposite(AlphaComposite.Src.derive(.50f));
-	            g2d.setColor(getBackground());
-	            g2d.fillRect(0, 0, width, height);
+				g2d.setColor(getBackground());
+				g2d.fillRect(0, 0, width, height);
 				
 				super.paintComponent(g2d);
 			}

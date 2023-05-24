@@ -186,14 +186,14 @@ public class Chat {
 		
 		final JScrollPane scrollPane = new JScrollPane(chatPane);
 		scrollPane.setBounds(chatPane.getBounds());
-        scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        scrollPane.setOpaque(false);
-        scrollPane.getViewport().setOpaque(false);
-        scrollPane.setBorder(null);
-        contentPane.add(scrollPane);
+		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+		scrollPane.setOpaque(false);
+		scrollPane.getViewport().setOpaque(false);
+		scrollPane.setBorder(null);
+		contentPane.add(scrollPane);
 		
-        //	Not implemented yet
+		//	Not implemented yet
 		chatPaneShadow = new JTextPane();
 		chatPaneShadow.setBounds(2, 2, width, height);
 		chatPaneShadow.setFocusable(false);
@@ -222,11 +222,11 @@ public class Chat {
 				StyleConstants.setBold(changingStyle, true);
 			}
 			changingStyle.addAttribute(StyleConstants.Foreground, color);
-        
-        	try {
-        		styledDocument.insertString(styledDocument.getLength(), text, styledDocument.getStyle("text"));
-        	} catch(Exception e) {}
-        });
+			
+			try {
+				styledDocument.insertString(styledDocument.getLength(), text, styledDocument.getStyle("text"));
+			} catch(Exception e) {}
+		});
 	}
 	
 	/**
@@ -239,10 +239,10 @@ public class Chat {
 	 * </ul>
 	 */
 	private void addTextToPane(String text, Color color) {
-        if(chatPane.getText().length()>0) {
-        	text = "\n" + text;
-        }
-        appendTextToPane(text, color);
+		if(chatPane.getText().length()>0) {
+			text = "\n" + text;
+		}
+		appendTextToPane(text, color);
 	}
 	
 	/**

@@ -47,7 +47,7 @@ public class KeyboardListener implements NativeKeyListener, FadeListener, InputL
 	 */
 	public KeyboardListener() throws NativeHookException {
 		final Logger logger = Logger.getLogger(GlobalScreen.class.getPackage().getName());
-        logger.setLevel(Level.OFF);
+		logger.setLevel(Level.OFF);
 		GlobalScreen.registerNativeHook();
 		registerKeyListener();
 		
