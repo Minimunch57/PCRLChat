@@ -10,16 +10,17 @@
     <img src="https://img.shields.io/badge/designed for-windows-blue?style=flat&logo=windows" alt="Designed for and Tested on Windows">
     <img src="https://img.shields.io/badge/status-in%20development-orange" alt="In Development -- Unreleased">
     <img src="https://img.shields.io/badge/language-java-F58219?logo=oracle" alt="Written in Java 8">
-    <a target="_blank" href="https://github.com/Minimunch57/PCRLChat/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-yellow" alt="Apache License v2.0"></a>
+    <a target="_blank" href="https://github.com/Minimunch57/PCRLChat/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-GPL%203.0-yellow" alt="GPL License v3.0"></a>
 </p>
 
 ### Table of Contents
-- [Description](https://github.com/Minimunch57/PCRLChat#-description)
-- [Features](https://github.com/Minimunch57/PCRLChat#-features)
-- [Images](https://github.com/Minimunch57/PCRLChat#-images)
-- [F.A.Q.](https://github.com/Minimunch57/PCRLChat#-faq)
-- [Future Plans/Ideas](https://github.com/Minimunch57/PCRLChat#%EF%B8%8F-future-plansideas)
-- [Additional Information](https://github.com/Minimunch57/PCRLChat#%E2%84%B9%EF%B8%8F-additional-information)
+- [Description](https://github.com/Minimunch57/PCRLChat?tab=readme-ov-file#-description)
+- [Features](https://github.com/Minimunch57/PCRLChat?tab=readme-ov-file#-features)
+- [Images](https://github.com/Minimunch57/PCRLChat?tab=readme-ov-file#-images)
+- [F.A.Q.](https://github.com/Minimunch57/PCRLChat?tab=readme-ov-file#-faq)
+- [Future Plans/Ideas](https://github.com/Minimunch57/PCRLChat?tab=readme-ov-file#%EF%B8%8F-future-plansideas)
+- [Libraries](https://github.com/Minimunch57/PCRLChat?tab=readme-ov-file#-libraries)
+- [Additional Information](https://github.com/Minimunch57/PCRLChat?tab=readme-ov-file#%E2%84%B9%EF%B8%8F-additional-information)
 
 ### 📃 Description
 🕸️  __This application is a little old.__
@@ -84,6 +85,11 @@ For the most up-to-date information surrounding new features, please use the [Is
     - [ ] General fixes and polish.
 - [ ] Custom Text for each chat message entry.
 - [ ] \(Maybe) Allow for external connections for automated firing of quick chat messages.
+
+### 📖 Libraries
+- `JNativeHook` @ <a target="_blank" href="https://github.com/kwhat/jnativehook">https://github.com/kwhat/jnativehook</a>
+    - Licensed under <a target="_blank" href="https://github.com/Minimunch57/PCRLChat/blob/main/LICENSE">GPL 3.0</a>
+    - No changes to library's source code.
 
 ### ℹ️ Additional Information
 The 'Rocket League Logo' that has been modified and used as this application's icon is directly from the game, Rocket League.
